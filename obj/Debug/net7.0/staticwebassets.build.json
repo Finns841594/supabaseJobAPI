@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HL09/rB9xdgwqvfazlpIBlybEQAwnBgP60ZltMWKyP4=",
+  "Source": "supabaseJobAPI",
+  "BasePath": "_content/supabaseJobAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
