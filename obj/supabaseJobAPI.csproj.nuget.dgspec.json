@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/Users/yangfeng/CS/PGP/supabaseJobAPI/supabaseJobAPI.csproj": {}
+    "/Users/panisara/salt/PGP/lups/supabaseJobAPI/supabaseJobAPI.csproj": {}
   },
   "projects": {
-    "/Users/yangfeng/CS/PGP/supabaseJobAPI/supabaseJobAPI.csproj": {
+    "/Users/panisara/salt/PGP/lups/supabaseJobAPI/supabaseJobAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yangfeng/CS/PGP/supabaseJobAPI/supabaseJobAPI.csproj",
+        "projectUniqueName": "/Users/panisara/salt/PGP/lups/supabaseJobAPI/supabaseJobAPI.csproj",
         "projectName": "supabaseJobAPI",
-        "projectPath": "/Users/yangfeng/CS/PGP/supabaseJobAPI/supabaseJobAPI.csproj",
-        "packagesPath": "/Users/yangfeng/.nuget/packages/",
-        "outputPath": "/Users/yangfeng/CS/PGP/supabaseJobAPI/obj/",
+        "projectPath": "/Users/panisara/salt/PGP/lups/supabaseJobAPI/supabaseJobAPI.csproj",
+        "packagesPath": "/Users/panisara/.nuget/packages/",
+        "outputPath": "/Users/panisara/salt/PGP/lups/supabaseJobAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/yangfeng/.nuget/NuGet/NuGet.Config"
+          "/Users/panisara/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "/usr/local/share/dotnet/sdk/7.0.305/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -43,9 +44,17 @@
               "target": "Package",
               "version": "[2.5.0, )"
             },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
