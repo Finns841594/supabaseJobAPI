@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using supabaseJobAPI.Models;
 using Newtonsoft.Json;
 
 namespace supabaseJobAPI.Controllers;

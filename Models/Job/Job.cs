@@ -1,8 +1,6 @@
 using Postgrest.Attributes;
 using Postgrest.Models;
 
-namespace supabaseJobAPI.Models;
-
 [Table("JobDescriptions")]
 public class Job : BaseModel
 {
