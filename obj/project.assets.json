@@ -5852,26 +5852,27 @@
     ]
   },
   "packageFolders": {
-    "/Users/panisara/.nuget/packages/": {}
+    "C:\\Users\\Luca Martinelli\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/panisara/salt/PGP/lups/supabaseJobAPI/supabaseJobAPI.csproj",
+      "projectUniqueName": "C:\\PGP\\supabaseJobAPI\\supabaseJobAPI.csproj",
       "projectName": "supabaseJobAPI",
-      "projectPath": "/Users/panisara/salt/PGP/lups/supabaseJobAPI/supabaseJobAPI.csproj",
-      "packagesPath": "/Users/panisara/.nuget/packages/",
-      "outputPath": "/Users/panisara/salt/PGP/lups/supabaseJobAPI/obj/",
+      "projectPath": "C:\\PGP\\supabaseJobAPI\\supabaseJobAPI.csproj",
+      "packagesPath": "C:\\Users\\Luca Martinelli\\.nuget\\packages\\",
+      "outputPath": "C:\\PGP\\supabaseJobAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/panisara/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Luca Martinelli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
-        "/usr/local/share/dotnet/sdk/7.0.305/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5934,7 +5935,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.305/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
       }
     }
   }
