@@ -1,28 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PGP\\supabaseJobAPI\\supabaseJobAPI.csproj": {}
+    "/Users/yangfeng/CS/PGP/supabaseJobAPI/supabaseJobAPI.csproj": {}
   },
   "projects": {
-    "C:\\PGP\\supabaseJobAPI\\supabaseJobAPI.csproj": {
+    "/Users/yangfeng/CS/PGP/supabaseJobAPI/supabaseJobAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PGP\\supabaseJobAPI\\supabaseJobAPI.csproj",
+        "projectUniqueName": "/Users/yangfeng/CS/PGP/supabaseJobAPI/supabaseJobAPI.csproj",
         "projectName": "supabaseJobAPI",
-        "projectPath": "C:\\PGP\\supabaseJobAPI\\supabaseJobAPI.csproj",
-        "packagesPath": "C:\\Users\\Luca Martinelli\\.nuget\\packages\\",
-        "outputPath": "C:\\PGP\\supabaseJobAPI\\obj\\",
+        "projectPath": "/Users/yangfeng/CS/PGP/supabaseJobAPI/supabaseJobAPI.csproj",
+        "packagesPath": "/Users/yangfeng/.nuget/packages/",
+        "outputPath": "/Users/yangfeng/CS/PGP/supabaseJobAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Luca Martinelli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/yangfeng/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,9 +47,17 @@
               "target": "Package",
               "version": "[7.0.9, )"
             },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.8, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -64,6 +70,16 @@
             "supabase-csharp": {
               "target": "Package",
               "version": "[0.12.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
             }
           },
           "imports": [
@@ -85,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,22 @@
+using Xunit;
+using Microsoft.AspNetCore.Mvc.Testing;
+
+namespace supabaseWebApi.Test;
+
+public class ApiTestSets: IClassFixture<WebApplicationFactory<Program>>
+{
+    protected readonly HttpClient _client;
+    public ApiTestSets(WebApplicationFactory<Program> factory)
+    {
+        _client = factory.CreateClient();
+    }
+    [Fact]
+    public async Task TestDevAPIGetAll()
+    {
+        var response = await _client.GetAsync("/api/devs");
+        
+        // var responseString = await response.Content.ReadAsStringAsync();
+        // Console.WriteLine("❗️: ", responseString);
+        Assert.Equal("200", response.StatusCode.ToString());
+    }
+}
