@@ -1,4 +1,3 @@
-using Xunit;
 using Microsoft.AspNetCore.Mvc.Testing;
 
 namespace supabaseWebApi.Test;
@@ -17,6 +16,7 @@ public class ApiTestSets: IClassFixture<WebApplicationFactory<Program>>
         
         // var responseString = await response.Content.ReadAsStringAsync();
         // Console.WriteLine("❗️: ", responseString);
-        Assert.Equal("200", response.StatusCode.ToString());
+        Console.WriteLine(response);
+        Assert.Equal("OK", response.StatusCode.ToString());
     }
 }

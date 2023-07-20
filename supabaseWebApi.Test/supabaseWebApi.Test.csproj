@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\supabaseJobAPI.csproj" />
+    <ProjectReference Include="..\supabaseJobAPI\supabaseJobAPI.csproj" />
   </ItemGroup>
 
 </Project>
