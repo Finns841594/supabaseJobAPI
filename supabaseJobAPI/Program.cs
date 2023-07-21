@@ -5,8 +5,8 @@ using Microsoft.Extensions.Hosting;
 using Supabase;
 
 var builder = WebApplication.CreateBuilder(args);
-
-DotNetEnv.Env.Load();
+var SUPABASE_URL = builder.Configuration["SupabaseURL"];
+var SUPABASE_APIKEY = builder.Configuration["SupabaseAPIKey"];
 
 builder.Services.AddControllers().AddNewtonsoftJson();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -16,9 +16,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<Supabase.Client>(_ => 
 new Supabase.Client(
    //Insert SupabaseURL below
-   Environment.GetEnvironmentVariable("SUPABASE_URL")!,
+   SUPABASE_URL!,
    //Insert SupabaseAPIKey below
-   Environment.GetEnvironmentVariable("SUPABASE_APIKEY"),
+   SUPABASE_APIKEY,
     new SupabaseOptions
     {
         AutoRefreshToken = true,
